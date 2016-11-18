@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/**
+ *
+ * @email   942093888@qq.com
+ * @date    2016-11-17 13:45:28
+ * @date    2016-11-17 13:45:28
+ * @version 1.0
+ */
+            @-webkit-keyframes Storey1{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+                 transform: rotateX(90deg) translate(-110%,-55%) translateZ(150px)scale(1);
+            }
+        }
+        @-webkit-keyframes Storey2{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(0,-55%) translateZ(150px)scale(1);
+            }
+        }
+        @-webkit-keyframes Storey3{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(110%,-55%) translateZ(150px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey4{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,55%) translateZ(150px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey5{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(0,55%) translateZ(150px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey6{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(110%,55%) translateZ(150px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey7{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,-55%) translateZ(50px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey8{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+             transform: rotateX(90deg) translate(0,-55%) translateZ(50px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey9{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(110%,-55%) translateZ(50px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey10{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,55%) translateZ(50px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey11{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(0,55%) translateZ(50px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey12{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+             transform: rotateX(90deg) translate(110%,55%) translateZ(50px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey13{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,-55%) translateZ(-50px) scale(1);
+
+            }
+        }
+
+        @-webkit-keyframes Storey14{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+             transform: rotateX(90deg) translate(0,-55%) translateZ(-50px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey15{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(110%,-55%) translateZ(-50px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey16{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,55%) translateZ(-50px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey17{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(0,55%) translateZ(-50px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey18{
+            0%{
+                transform :rotateX(0deg) translate(0,0) translateZ(0)scale(0);
+            }
+            100%{
+             transform: rotateX(90deg) translate(110%,55%) translateZ(-50px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey19{
+            0%{
+                transform:rotateX(0deg) translateZ(0) scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,-55%) translateZ(-150px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey20{
+            0%{
+                transform: rotateX(0deg) translateZ(0) scale(0);
+            }
+            100%{
+             transform: rotateX(90deg) translate(0,-55%) translateZ(-150px)scale(1);
+
+            }
+        }
+
+        @-webkit-keyframes Storey21{
+            0%{
+                transform: rotateX(0deg) translateZ(0) scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(110%,-55%) translateZ(-150px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey22{
+            0%{
+                transform: rotateY(0deg) translateZ(0) scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(-110%,55%) translateZ(-150px) scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey23{
+            0%{
+                transform:  translateZ(0) scale(0);
+            }
+            100%{
+            transform: rotateX(90deg) translate(0,55%) translateZ(-150px)scale(1);
+
+            }
+        }
+        @-webkit-keyframes Storey24{
+            0%{
+                transform:  translateZ(0) scale(0);
+            }
+            100%{
+             transform: rotateX(90deg) translate(110%,55%) translateZ(-150px) scale(1);
+
+            }
+        }

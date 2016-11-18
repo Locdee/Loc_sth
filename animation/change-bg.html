@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <script src="js/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" href="css/ball.css">
+    <link rel="stylesheet" href="css/storey.css">
+    <link rel="stylesheet" href="css/base.css">
+
+    <style>
+        body{
+            /*background: #000;*/
+            background:url(img/bg.jpg);
+            background-size: cover;
+        }
+        .group .pane1{
+            background: rgba(100,240,90,.5);
+            animation: Storey1 1s linear forwards;
+
+        }
+        .group .pane2{
+            background: rgba(10,10,255,.5);
+            animation: Storey2 1s linear forwards .2s;
+        }
+        .group .pane3{
+            background: rgba(200,40,10,.5);
+            animation: Storey3 1s linear forwards .4s;
+
+        }
+
+        .group .pane4{
+            background: rgba(100,20,90,.5);
+            animation: Storey4 1s linear forwards .6s;
+
+        }
+
+        .group .pane5{
+            background: rgba(10,0,100,.5);
+            animation: Storey5 1s linear forwards .8s;
+
+
+        }
+        .group .pane6{
+            background: rgba(120,100,200,.5);
+            animation: Storey6 1s linear forwards 1s;
+        }
+        .group .pane7{
+            background: rgba(50,130,120,.5);
+            animation: Storey7 1s linear forwards 1.2s;
+        }
+        .group .pane8{
+            background: rgba(50,130,120,.5);
+            animation: Storey8 1s linear forwards 1.4s;
+        }
+        .group .pane9{
+            background: rgba(50,130,120,.5);
+            animation: Storey9 1s linear forwards 1.6s;
+        }
+        .group .pane10{
+            background: rgba(50,130,120,.5);
+            animation: Storey10 1s linear forwards 1.8s;
+        }
+        .group .pane11{
+            background: rgba(50,130,120,.5);
+            animation: Storey11 1s linear forwards 2s;
+        }
+        .group .pane12{
+            background: rgba(50,130,120,.5);
+            animation: Storey12 1s linear forwards 2.2s;
+        }
+        .group .pane13{
+            background: rgba(50,130,120,.5);
+            animation: Storey13 1s linear forwards 2.4s;
+        }
+        .group .pane14{
+            background: rgba(50,130,120,.5);
+            animation: Storey14 1s linear forwards 2.6s;
+        }
+        .group .pane15{
+            background: rgba(50,130,120,.5);
+            animation: Storey15 1s linear forwards 2.8s;
+        }
+        .group .pane16{
+            background: rgba(50,130,120,.5);
+            animation: Storey16 1s linear forwards 3s;
+        }
+        .group .pane17{
+            background: rgba(50,130,120,.5);
+            animation: Storey17 1s linear forwards 3.2s;
+        }
+        .group .pane18{
+            background: rgba(50,130,120,.5);
+            animation: Storey18 1s linear forwards 3.4s;
+        }
+        .group .pane19{
+            background: rgba(50,130,120,.5);
+            animation: Storey19 1s linear forwards 3.6s;
+        }
+        .group .pane20{
+            background: rgba(50,130,120,.5);
+            animation: Storey20 1s linear forwards 3.8s;
+        }
+        .group .pane21{
+            background: rgba(50,130,120,.5);
+            animation: Storey21 1s linear forwards 4s;
+        }
+        .group .pane22{
+            background: rgba(50,130,120,.5);
+            animation: Storey22 1s linear forwards 4.2s;
+        }
+        .group .pane23{
+            background: rgba(50,130,120,.5);
+            animation: Storey23 1s linear forwards 4.4s;
+        }
+        .group .pane24{
+            background: rgba(50,130,120,.5);
+            animation: Storey24 1s linear forwards 4.6s;
+        }
+
+
+
+
+
+        @-webkit-keyframes move{
+            0%{
+                transform: rotateX(0deg) rotateY(0deg) ;
+            }
+
+            25%{
+                transform: rotateX(360deg) rotateY(0deg) ;
+            }
+
+            50%{
+                transform: rotateX(360deg) rotateY(-360deg) ;
+            }
+            75%{
+                transform: rotateX(0deg) rotateY(-360deg);
+            }
+
+            100%{
+                transform: rotateX(0deg) rotateY(00deg);
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box">
+        <div class="group change" id="group">
+            <div class="pane pane1">1</div>
+            <div class="pane pane2">2</div>
+            <div class="pane pane3">3</div>
+            <div class="pane pane4">4</div>
+            <div class="pane pane5">5</div>
+            <div class="pane pane6">6</div>
+            <div class="pane pane7">7</div>
+            <div class="pane pane8">8</div>
+            <div class="pane pane9">9</div>
+            <div class="pane pane10">10</div>
+            <div class="pane pane11">11</div>
+            <div class="pane pane12">12</div>
+            <div class="pane pane13">13</div>
+            <div class="pane pane14">14</div>
+            <div class="pane pane15">15</div>
+            <div class="pane pane16">16</div>
+            <div class="pane pane17">17</div>
+            <div class="pane pane18">18</div>
+            <div class="pane pane19">19</div>
+            <div class="pane pane20">20</div>
+            <div class="pane pane21">21</div>
+            <div class="pane pane22">22</div>
+            <div class="pane pane23">23</div>
+            <div class="pane pane24">24</div>
+        </div>
+    </div>
+    <script>
+
+        var flag = false;
+        $("#group").click(function(){
+            if($("#group").hasClass('change')){
+                $("#group").removeClass('change');
+            }
+                // console.log($(this).index());
+            if(flag){
+                $("#box").css("transform","rotateZ(-40deg)")
+                 $.each($("#group div"),function(){
+                    $(this).css("animation","Storey"+( $(this).index()+1 )+" 1s linear forwards "+ ($(this).index()*0.2) +"s")
+                })
+
+                    $("#group").addClass('change');
+
+                flag=false;
+            }else{
+                $("#box").css("transform","rotateZ(0deg)")
+                $.each($("#group div"),function(){
+                    $(this).css("animation","Ball"+( $(this).index()+1 )+" 1s linear forwards "+ ($(this).index()*0.2) +"s")
+                })
+
+                    $("#group").addClass('change');
+
+                flag=true;
+            }
+        })
+
+
+    </script>
+</body>
+</html>
