@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ *
+ * @email   942093888@qq.com
+ * @date    2016-11-17 13:08:15
+ * @date    2016-11-17 13:08:15
+ * @version 1.0
+ */
+     * {
+            margin: 0;
+            padding: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        img {
+            display: block;
+            border: 0;
+        }
+        .clearfix {
+            zoom: 0;
+        }
+        .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0;
+        }
+
+/*
+      .box {*/
+            /*transform:rotateZ(-40deg);*/
+        /*    margin:0 auto;
+            perspective:800px;
+            perspective-origin:50% 50%;
+        }*/
+        .group{
+            width:100px;
+            height:100px;
+            margin:300px auto;
+            position:relative;
+          /*  perspective:1000px;
+            perspective-origin:50% 50%;*/
+            transform: perspective(1000px) rotateZ(0deg);
+            transform-style: preserve-3d;
+        }
+        .change{
+            animation: move 10s linear infinite 4.6s;
+        }
+        .box .group:hover{
+            animation-play-state: paused;
+        }
+        .group .pane{
+
+            width:100px;
+            height:100px;
+            position:absolute;
+            line-height:100px;
+            font-size:50px;
+            color:#fff;
+            text-align: center;
+            /*box-shadow:0px 0px 3px #fff;*/
+            top: 0;
+            left: 0;
+            border-radius:5px;
+            transform:scale(0);
+        }
